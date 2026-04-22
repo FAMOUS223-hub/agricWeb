@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | AgricWorld - Specialized Agriculture Solutions</title>
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/globals.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/services.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="index.html" class="brand">
+                <i class="fas fa-seedling"></i> AgricWorld
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="services.html" class="nav-link active">Our Services</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="contact.html" class="btn btn-primary" style="padding: 0.8rem 1.5rem;">Get Started</a></li>
+            </ul>
+            <div class="menu-btn" onclick="toggleSidebar()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar for Mobile -->
+    <div class="sidebar" id="sidebar">
+        <div class="close-sidebar" onclick="toggleSidebar()">
+            <i class="fas fa-times"></i>
+        </div>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link active">Our Services</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="contact.html" class="btn btn-primary">Get Started</a>
+    </div>
+
+    <!-- Page Header -->
+    <header class="section-padding" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/img_5245.jpg'); background-size: cover; background-position: center; color: white; text-align: center; margin-top: 80px;">
+        <div class="container">
+            <div class="reveal">
+                <span class="badge" style="background: var(--primary); color: white; border: none;">Specialized Solutions</span>
+                <h1 style="color: white;">Empowering Farmers with <br><span style="color: var(--secondary);">Premium</span> Services</h1>
+                <p style="color: var(--gray-200); max-width: 700px; margin: 0 auto;">We offer a wide range of specialized services designed to help you succeed in modern, sustainable agriculture.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Detailed Services Grid -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="grid stagger-children" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 3rem;">
+                
+                <div class="premium-card">
+                    <div class="icon-box"><i class="fas fa-seedling"></i></div>
+                    <h3>Organic Crop Production</h3>
+                    <p>We specialize in the production of 100% organic cereals, grains, and vegetables. Our methods focus on natural pest control and nutrient-rich soil management.</p>
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Heritage Seed Selection</li>
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Zero Chemical Pesticides</li>
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Nutrient Density Focus</li>
+                    </ul>
+                </div>
+
+                <div class="premium-card">
+                    <div class="icon-box"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <h3>Agricultural Consulting</h3>
+                    <p>Our experts provide data-driven consulting for farm planning, investment analysis, and operational optimization for both small and large-scale operations.</p>
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Farm Design & Planning</li>
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Financial Feasibility</li>
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Risk Management</li>
+                    </ul>
+                </div>
+
+                <div class="premium-card">
+                    <div class="icon-box"><i class="fas fa-tint"></i></div>
+                    <h3>Modern Irrigation Systems</h3>
+                    <p>Implementation of smart irrigation solutions including drip, sprinkler, and solar-powered pumping systems to ensure efficient water usage.</p>
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Solar Pump Installation</li>
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Smart Sensors & Automation</li>
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Water Conservation Audits</li>
+                    </ul>
+                </div>
+
+                <div class="premium-card">
+                    <div class="icon-box"><i class="fas fa-vial"></i></div>
+                    <h3>Soil Enhancement</h3>
+                    <p>Comprehensive soil testing and natural fertilization strategies to restore depleted lands and maintain peak productivity.</p>
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Lab-Grade Soil Testing</li>
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Organic Compost Systems</li>
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Cover Crop Strategies</li>
+                    </ul>
+                </div>
+
+                <div class="premium-card">
+                    <div class="icon-box"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Farmer Training</h3>
+                    <p>Empowering the next generation of farmers through workshops and hands-on training in sustainable agricultural practices.</p>
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Sustainable Tech Workshops</li>
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Business Management</li>
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Certification Guidance</li>
+                    </ul>
+                </div>
+
+                <div class="premium-card">
+                    <div class="icon-box"><i class="fas fa-truck"></i></div>
+                    <h3>Supply Chain Solutions</h3>
+                    <p>End-to-end logistics and storage solutions to ensure fresh produce reaches the market efficiently and with minimal waste.</p>
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Cold Chain Storage</li>
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Distribution Logistics</li>
+                        <li class="feature-item"><i class="fas fa-check-circle"></i> Market Access Support</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section-padding" style="background: var(--gray-100);">
+        <div class="container">
+            <div class="text-center mb-3 reveal">
+                <span class="badge">Common Questions</span>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="reveal" style="max-width: 800px; margin: 0 auto;">
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="this.parentElement.classList.toggle('active')">
+                        How do I start a consultation with AgricWorld?
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Starting a consultation is easy! Simply fill out the contact form on our contact page, or call our Accra office directly. Our experts will schedule an initial assessment of your needs within 48 hours.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="this.parentElement.classList.toggle('active')">
+                        Are your irrigation systems suitable for small-scale farms?
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Absolutely. We design irrigation solutions for farms of all sizes. For small-scale operations, we often recommend our affordable solar-powered drip irrigation kits that maximize water efficiency at a low entry cost.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="this.parentElement.classList.toggle('active')">
+                        Do you provide organic certification support?
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Yes, we guide our partners through the entire process of obtaining local and international organic certifications. We help with documentation, soil auditing, and ensuring your practices meet the required standards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section-padding reveal">
+        <div class="container text-center glass-card" style="padding: 5rem; border-radius: 3rem;">
+            <h2 class="text-gradient">Start Your Agricultural Transformation</h2>
+            <p style="max-width: 600px; margin: 0 auto 2rem;">Join the green revolution today and discover how AgricWorld can help your farm reach its full potential sustainably.</p>
+            <a href="contact.html" class="btn btn-primary">Contact Our Experts Today</a>
+        </div>
+    </section>
+
+    <!-- Premium Footer -->
+    <footer class="premium-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="index.html" class="footer-brand"><i class="fas fa-seedling"></i> AgricWorld</a>
+                    <p class="footer-text">Leading the way in sustainable organic farming and agricultural innovation since 2010. Dedicated to Ghana's green future.</p>
+                    <div class="social-links mt-2">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="about.html" class="footer-link">About Us</a></li>
+                        <li><a href="services.html" class="footer-link">Services</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer-link">Terms of Service</a></li>
+                        <li><a href="#" class="footer-link">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Contact Us</h4>
+                    <ul class="footer-links">
+                        <li class="footer-link"><i class="fas fa-map-marker-alt"></i> Accra, Ghana</li>
+                        <li class="footer-link"><i class="fas fa-phone"></i> +233 555 123 456</li>
+                        <li class="footer-link"><i class="fas fa-envelope"></i> info@agricworld.gh</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AgricWorld. All rights reserved.</p>
+                <p>Designed with <i class="fas fa-heart" style="color: var(--primary);"></i> by Famous Graphics</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>

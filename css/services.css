@@ -1,0 +1,33 @@
+.hero{
+    padding: 3rem;
+    background-image: url(/images/IMG_5287\ copy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+/* nav{
+    padding: 2rem;
+    border-radius: 30rem;
+    background-color: rgba(0, 0, 0, 0.876);
+    backdrop-filter: blur(10px);
+} */
+
+.heroInfo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 80vh;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.581);
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.heroInfo p{
+    max-width: 80%;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
