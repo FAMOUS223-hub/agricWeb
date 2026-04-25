@@ -16,11 +16,12 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: url('../images/img_5254.jpg'); /* Use available image */
+    background: url('/images/img_5254.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0.6;
     animation: heroZoom 20s infinite alternate ease-in-out;
+   
 }
 
 @keyframes heroZoom {

@@ -18,6 +18,7 @@ nav.scrolled {
     backdrop-filter: blur(10px);
     padding: 1rem 0;
     box-shadow: var(--shadow-md);
+    
 }
 
 nav .container {
@@ -79,6 +80,10 @@ nav .container {
 
 .nav-link.active::after {
     width: 100%;
+}
+
+.btn-nav {
+    padding: 0.8rem 1.5rem !important;
 }
 
 /* Sidebar / Mobile Menu */

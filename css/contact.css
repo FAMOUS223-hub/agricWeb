@@ -11,6 +11,94 @@
     color: white;
 }
 
+.nav-cta {
+    padding: 0.8rem 1.5rem;
+}
+
+.contact-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/img_5242.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contact-badge {
+    background: var(--primary);
+    color: white;
+    border: none;
+}
+
+.contact-hero h1,
+.contact-hero h1 span,
+.contact-hero p {
+    color: white;
+}
+
+.contact-hero h1 span {
+    color: var(--secondary);
+}
+
+.contact-hero p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--gray-200);
+}
+
+.contact-info-panel .contact-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-info-panel .icon-box {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.contact-info-panel h4 {
+    margin: 0;
+    font-family: var(--font-main);
+}
+
+.contact-info-panel p {
+    margin: 0;
+}
+
+.contact-social-links .social-link {
+    background: var(--primary-soft);
+    color: var(--primary);
+}
+
+.map-section {
+    height: 400px;
+    background: var(--gray-200);
+    position: relative;
+    overflow: hidden;
+}
+
+.map-placeholder {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: var(--gray-500);
+}
+
+.map-placeholder .fas {
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+
+.premium-footer .fas.fa-heart {
+    color: var(--primary);
+}
+
 .contactHeader {
     text-align: center;
     animation: slideInUp 1s ease-out;
