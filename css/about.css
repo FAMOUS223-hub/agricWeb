@@ -17,6 +17,14 @@
     color: white;
 }
 
+.about-stats-section .stat-number {
+    font-size: 3.5rem;
+}
+
+.about-stats-section .stat-label {
+    opacity: 0.9;
+}
+
 .about-stat-card {
     padding: 0;
     text-align: left;

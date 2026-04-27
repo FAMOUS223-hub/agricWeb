@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Services | AgricWorld - Specialized Agriculture Solutions</title>
+     <link rel="icon" type="image/svg+xml" href="images/seedling-svgrepo-com.svg">
     <!-- CSS Links -->
     <link rel="stylesheet" href="css/globals.css">
     <link rel="stylesheet" href="css/components.css">
@@ -26,7 +27,7 @@
                 <li><a href="about.html" class="nav-link">About Us</a></li>
                 <li><a href="services.html" class="nav-link active">Our Services</a></li>
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
-                <li><a href="contact.html" class="btn btn-primary" style="padding: 0.8rem 1.5rem;">Get Started</a></li>
+                <li><a href="contact.html" class="btn btn-primary nav-cta">Get Started</a></li>
             </ul>
             <div class="menu-btn" onclick="toggleSidebar()">
                 <i class="fas fa-bars"></i>
@@ -47,12 +48,12 @@
     </div>
 
     <!-- Page Header -->
-    <header class="section-padding" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/img_5245.jpg'); background-size: cover; background-position: center; color: white; text-align: center; margin-top: 80px;">
+    <header class="section-padding services-header">
         <div class="container">
             <div class="reveal">
-                <span class="badge" style="background: var(--primary); color: white; border: none;">Specialized Solutions</span>
-                <h1 style="color: white;">Empowering Farmers with <br><span style="color: var(--secondary);">Premium</span> Services</h1>
-                <p style="color: var(--gray-200); max-width: 700px; margin: 0 auto;">We offer a wide range of specialized services designed to help you succeed in modern, sustainable agriculture.</p>
+                <span class="badge bg-primary text-white border-none">Specialized Solutions</span>
+                <h1>Empowering Farmers with <br><span>Premium</span> Services</h1>
+                <p>We offer a wide range of specialized services designed to help you succeed in modern, sustainable agriculture.</p>
             </div>
         </div>
     </header>
@@ -60,7 +61,7 @@
     <!-- Detailed Services Grid -->
     <section class="section-padding">
         <div class="container">
-            <div class="grid stagger-children" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 3rem;">
+            <div class="grid stagger-children services-grid">
                 
                 <div class="premium-card">
                     <div class="icon-box"><i class="fas fa-seedling"></i></div>
@@ -133,13 +134,13 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="section-padding" style="background: var(--gray-100);">
+    <section class="section-padding faq-section">
         <div class="container">
             <div class="text-center mb-3 reveal">
                 <span class="badge">Common Questions</span>
                 <h2>Frequently Asked Questions</h2>
             </div>
-            <div class="reveal" style="max-width: 800px; margin: 0 auto;">
+            <div class="reveal faq-container">
                 <div class="accordion-item">
                     <div class="accordion-header" onclick="this.parentElement.classList.toggle('active')">
                         How do I start a consultation with AgricWorld?
@@ -173,9 +174,9 @@
 
     <!-- CTA Section -->
     <section class="section-padding reveal">
-        <div class="container text-center glass-card" style="padding: 5rem; border-radius: 3rem;">
+        <div class="container text-center glass-card cta-card">
             <h2 class="text-gradient">Start Your Agricultural Transformation</h2>
-            <p style="max-width: 600px; margin: 0 auto 2rem;">Join the green revolution today and discover how AgricWorld can help your farm reach its full potential sustainably.</p>
+            <p>Join the green revolution today and discover how AgricWorld can help your farm reach its full potential sustainably.</p>
             <a href="contact.html" class="btn btn-primary">Contact Our Experts Today</a>
         </div>
     </section>
@@ -222,7 +223,7 @@
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2025 AgricWorld. All rights reserved.</p>
-                <p>Designed with <i class="fas fa-heart" style="color: var(--primary);"></i> by Famous Graphics</p>
+                <p>Designed with <i class="fas fa-heart text-primary"></i> by Famous Graphics</p>
             </div>
         </div>
     </footer>

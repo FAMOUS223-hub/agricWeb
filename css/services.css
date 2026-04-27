@@ -1,21 +1,68 @@
-.hero{
+/* ===== SERVICES PAGE STYLES ===== */
+
+.services-header {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/img_5245.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.services-header h1 {
+    color: white;
+}
+
+.services-header h1 span {
+    color: var(--secondary);
+}
+
+.services-header p {
+    color: var(--gray-200);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.faq-section {
+    background: var(--gray-100);
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-card {
+    padding: 5rem;
+    border-radius: 3rem;
+}
+
+.cta-card p {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+.nav-cta {
+    padding: 0.8rem 1.5rem;
+}
+
+/* Original hero styles if still needed, fixed path */
+.hero {
     padding: 3rem;
-    background-image: url(/images/IMG_5287\ copy.jpg);
+    background-image: url('../images/img_5287_copy.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    
 }
 
-/* nav{
-    padding: 2rem;
-    border-radius: 30rem;
-    background-color: rgba(0, 0, 0, 0.876);
-    backdrop-filter: blur(10px);
-} */
-
-.heroInfo{
+.heroInfo {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -26,7 +73,7 @@
     padding: 2rem;
 }
 
-.heroInfo p{
+.heroInfo p {
     max-width: 80%;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;

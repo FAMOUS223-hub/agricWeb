@@ -226,7 +226,13 @@
     margin-bottom: 1rem;
 }
 
+/* Footer Components */
+.premium-footer .fa-heart {
+    color: var(--primary);
+}
+
 /* Floating Animation */
+
 @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-20px); }
