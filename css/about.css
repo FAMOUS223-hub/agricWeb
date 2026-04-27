@@ -1,7 +1,7 @@
 /* ===== ABOUT PAGE STYLES ===== */
 
 .about-header {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/img_5240.jpg');
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/img_5240.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -10,7 +10,7 @@
 }
 
 .about-stats-section {
-    background: linear-gradient(rgba(15, 110, 0, 0.9), rgba(6, 90, 0, 0.9)), url('/images/img_5242.jpg');
+    background: linear-gradient(rgba(15, 110, 0, 0.9), rgba(6, 90, 0, 0.9)), url('../images/img_5242.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

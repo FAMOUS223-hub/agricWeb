@@ -16,7 +16,7 @@
 }
 
 .contact-hero {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/img_5242.jpg');
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/img_5242.jpg');
     background-size: cover;
     background-position: center;
     color: white;
